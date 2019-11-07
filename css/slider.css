@@ -1,0 +1,58 @@
+.slider .indicators .indicator-item {
+    background-color: #666666;
+    border: 3px solid #ffffff;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+.slider .indicators .indicator-item.active {
+background-color: #ffffff;
+}
+.slider .slides{
+height: 500px !important;
+}
+.slider {
+position: absolute;
+height: 500px !important;
+width: 100%;
+margin: 0 auto;
+}
+.slider .indicators {
+bottom: 60px;
+z-index: 100;
+/* text-align: left; */
+}
+
+.captionTitle{
+    width: 100% !important;
+    left: 0% !important;
+    top: 0% !important;
+    position: relative !important;
+}
+
+.titleImg{
+    background-position: center !important;
+    background-size: contain!important;
+    width: 50% !important;
+    position: relative !important;
+    height: 200px !important;
+    background-repeat: no-repeat;
+
+}
+
+
+@media screen and ( max-width: 1366px ){
+
+
+    .titleImg{
+   
+      width: 100% !important;
+     
+      height: 100px !important;
+  
+  
+    }
+  
+
+  
+  }
